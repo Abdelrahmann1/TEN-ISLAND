@@ -7,21 +7,15 @@
 }
 
 :root {
-  --primary: #000F3D;
-  /* الأساسي: رمادي غامق */
-  --secondary: #000F3D;
-  /* الثانوي: أبيض */
+  --primary: #B6D5DC;   /* الأساسي */
+  --secondary: #3B4041; /* الثانوي */
 
-  --accent: #4a90e2;
-  /* لون مميز أزرق سماوي يعطي contrast */
-  --gold: #ce2934;
-  /* ذهبي راقي يتماشى مع الغامق */
-  --light: #f5f6fa;
-  /* خلفيات فاتحة (قريب من الأبيض لكن أهدى) */
-  --dark: #1c1e22;
-  /* أغمق من الأساسي لاستخدامه في النصوص الثقيلة */
+  --accent: #4a90e2;    /* لون مميز */
+  --gold: #ce2934;      /* لون إضافي */
+  --light: #f5f6fa;     /* خلفية فاتحة */
+  --dark: #1c1e22;      /* لون داكن للنصوص */
 
-  --gradient: linear-gradient(135deg, #000F3D 0%, #ffffff 100%);
+  --gradient: linear-gradient(135deg, #B6D5DC 0%, #3B4041 100%);
   --shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -142,6 +136,8 @@ nav.scrolled {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
 
 }
 
@@ -172,7 +168,7 @@ logo img {
 }
 
 .nav-links a {
-  color: white;
+  color: var(--secondary);
   text-decoration: none;
   transition: color 0.3s ease;
   position: relative;
@@ -326,6 +322,7 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   height: 10%;
+  
 }
 
 .section-title {
@@ -1005,4 +1002,12 @@ img {
 .location-section {
   margin-top: 0 !important;
   padding-top: 0 !important;
+}
+.footer-content{
+  color: var(--secondary);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+
+
 }
