@@ -8,7 +8,6 @@ function setSheetAndOpen(sheet) {
     // if (projectInput.value == "mnhd all") {
     //     document.getElementById('modal-title').style.display = 'none';
     // } else {
-
     //     console.log(
     //         projectInput
     //     );
