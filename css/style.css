@@ -75,7 +75,7 @@ body {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #ffffff;
-  border-color: #a5121c transparent #c40d19 transparent;
+  border-color: var(--gradient);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -1006,7 +1006,7 @@ img {
 .footer-content{
   color: var(--secondary);
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 800;
 
 
@@ -1126,6 +1126,7 @@ img {
   font-size: 16px;
   color: #777;
   margin-bottom: 25px;
+  font-weight: 700;
 }
 
 .map-frame {
@@ -1145,4 +1146,34 @@ img {
   .map-frame iframe {
     height: 300px;
   }
+}
+.offer-section {
+  background: var(--gradient);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: var(--gradient);
+}
+
+.offer-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.offer-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.offer-limited {
+  display: inline-block;
+  font-size: 1rem;
+  background: #543A14;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
 }

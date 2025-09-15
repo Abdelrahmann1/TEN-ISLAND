@@ -219,10 +219,9 @@ async function handleSubmit(e, sheet) {
 
   // Call the function when the page loads
   document.addEventListener("DOMContentLoaded", function() {
-    animateValue("installment", 0, 8, 2000);  // 8 سنوات تقسيط
-    animateValue("downpayment", 0, 10, 2000); // 10% مقدم
-    animateValue("delivery", 0, 3, 2000);     // 3 سنوات للتسليم
-    animateValue("price", 0, 1500000, 2500);  // 1,500,000 جنيه سعر البداية
+    animateValue("installment", 0, 10, 2000);  // 8 سنوات تقسيط
+    animateValue("downpayment", 0, 5, 2000); // 10% مقدم
+    animateValue("delivery", 0, 4, 2000);     // 3 سنوات للتسليم
     if (current) {
       
       document.getElementById("downpayment").textContent = current + "%";
