@@ -9,7 +9,6 @@
 :root {
   --primary: #B6D5DC;   /* الأساسي */
   --secondary: #3B4041; /* الثانوي */
-
   --accent: #4a90e2;    /* لون مميز */
   --gold: #ce2934;      /* لون إضافي */
   --light: #f5f6fa;     /* خلفية فاتحة */
@@ -1203,7 +1202,7 @@ img {
   color: var(--dark);
   font-size: 1.1rem;
   font-weight: bold;
-  padding: 12px 30px;
+  padding: 12px 12px;
   border: none;
   border-radius: 30px;
   cursor: pointer;
