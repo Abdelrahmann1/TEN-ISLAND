@@ -133,7 +133,7 @@ async function handleSubmit(e, sheet) {
       if (result.success) {
         name.value = "";
         phone.value = "";
-          window.location.href = '../thank_you.html';
+          window.location.href = '../thank-you.html';
       preloader.classList.add('d-none');
 
       } else {
