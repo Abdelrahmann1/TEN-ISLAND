@@ -59,6 +59,23 @@
             </div>
         </div>
     </section>
+    <br>
+    <form class="contact-form" id="contactForm" 
+      onsubmit="handleSubmit(event,'Ten Island All In house')" 
+      style="width:800px; margin:0 auto; background:#fff; padding:20px; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+    <h2 style="color: black; text-align: center; font-weight: 900;">
+        للحجز او الاستفسار
+    </h2>
+    <div class="form-group">
+        <label for="name">الاسم الكامل *</label>
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك الكامل" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">رقم الهاتف *</label>
+        <input type="tel" id="phone" name="phone" placeholder="اكتب رقم هاتفك" required>
+    </div>
+    <button type="submit" class="submit-btn">سجّل بياناتك</button>
+</form>
     <!-- Dynamic Numbers -->
     <div class="highlight-box">
         <div class="stats">
@@ -92,7 +109,10 @@
                 احجز وحدتك اليوم
             </button>
         </div>
+        
     </section>
+    
+
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">

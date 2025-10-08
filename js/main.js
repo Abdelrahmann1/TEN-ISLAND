@@ -22,7 +22,7 @@ function setSheetAndOpen(sheet) {
 document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function() {
         setSheetAndOpen('Crysta Mountain View In house');
-    }, 7000); 
+    }, 27000); 
 });
 // Preloader
 // window.addEventListener('load', function() {
